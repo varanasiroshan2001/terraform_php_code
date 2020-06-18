@@ -1,1 +1,2 @@
-# terraform_php_code
+# INTRICATION OF TERRAFORM WITH AWS TO LAUNCH THE WHOLE INFRASTRUCTURE USING IAAC INFRASTRUCTURE AS CODE,WITH JUST 1 GO WEBSITE LAUNCHED.
+This intrication will be more helpful when we will use hybrid cloud or multi cloud or hybrid multi cloud with kubernetes on backened holding the deployment of our pods with the instance running through EKS also thats elastic kubernetes service.THis ca be also intricated to jenkins so as soon as code changed by developer by setting github webhooks they auto roll or update so now this can said as cloudops.For this we have to set an static ip so its constant and from that we can write code to write code for jenkins shell command it will auto apply and init or validate.
