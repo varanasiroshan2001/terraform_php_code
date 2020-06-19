@@ -20,3 +20,18 @@ Above task should be done using terraform
 
 IF U LIKED MY PROJECT THEN GIVE A LIKE AND COMMENT IN MY LINKEDIN---> https://www.linkedin.com/posts/v-roshan-kumar-patro-6222741a2_my-cloud-terraform-intricated-aws-website-activity-6679366488291454976-6xiK
 
+![LINKS](code_success_images/LINKS.png)
+![VALIDATED](code_success_images/VALIDATIONSUCCESS.png)
+![1](code_success_images/sg-created.png)
+![2](code_success_images/key-pair-creted.png)
+![3](code_success_images/SAVEDKEY.png)
+![4](code_success_images/volume-created.png)
+![5](code_success_images/instance-running.png)
+![6](code_success_images/S3.png)
+![7](code_success_images/S31.png)
+![8](code_success_images/CLOUDFRONTPROGRESS.png)
+![9](code_success_images/CLOUDFRONTDEPLOYED.png)
+![10](code_success_images/WEBSITE.png)
+![11](code_success_images/WEBSITE-CONTINUE.png)
+
+                                      THANK YOU
