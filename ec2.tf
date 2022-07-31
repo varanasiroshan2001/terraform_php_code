@@ -150,7 +150,9 @@ resource "null_resource" "nullremote21" {
    "sudo mkfs.ext4 /dev/xvdd",
    "sudo mount /dev/xvdd /var/www/html",
    "sudo rm -rf /var/www/html/*",
-   "sudo git clone https://github.com/varanasiroshan2001/terraform_php_code.git   /var/www/html/"
+   "sudo git clone https://github.com/varanasiroshan2001/terraform_php_code.git   /var/www/html/",
+   "sudo service httpd restart",
+   "sudo set selinux 0"
          ]
    }
 }
