@@ -19,7 +19,6 @@ Optional
 
 Above task should be done using terraform
 
-IF U LIKED MY PROJECT THEN GIVE A LIKE AND COMMENT IN MY LINKEDIN---> https://www.linkedin.com/posts/v-roshan-kumar-patro-6222741a2_my-cloud-terraform-intricated-aws-website-activity-6679366488291454976-6xiK
 
 ![LINKS](code_success_images/LINKS.png)
 ![VALIDATED](code_success_images/VALIDATIONSUCCESS.png)
