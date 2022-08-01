@@ -12,6 +12,7 @@ TASK DETAILS:
 7. Create S3 bucket, and copy/deploy the images from github repo into the s3 bucket and change the permission to public readable.
 8 Create a Cloudfront using s3 bucket(which contains images) and use the Cloudfront URL to  update in code in /var/www/html
 
+
 Optional
 1) Those who are familiar with jenkins or are in devops AL have to integrate jenkins in this task wherever you feel can be integrated
 2) create snapshot of ebs --> FOR FUTURE REFERANCE FOR MAKING AN AMI FROM THIS
