@@ -163,7 +163,6 @@ resource "null_resource" "nullremote21" {
 //FOR CREATING A S3 BUCKET TO UPLOAD IMAGES AND VIDEOS ON CLOUD
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-tf-test-bucket-roshan"
-  acl    = "public-read"
 
   tags = {
     Name  = "1234Myimgbucket9668033104"
