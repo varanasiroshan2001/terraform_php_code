@@ -47,7 +47,7 @@ resource "aws_instance" "myosweb" {
   security_groups = [ "roshan_grp_r" ]
   
   tags = {
-    Name = "Hello-web-env"
+    Name = "Hello-web-env-roshan"
     env = "website"
   }
 }
