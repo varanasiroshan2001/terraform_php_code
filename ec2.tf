@@ -53,6 +53,24 @@ resource "aws_instance" "myosweb" {
 }
 
 
+resource "null_resource" "nullremote1" {
+ connection {
+  type = "ssh"
+  user = "ec2-user"
+  private_key = file("${var.ssh_key_name}.pem")
+  host = aws_instance.myosweb.public_ip  
+   }
+
+
+ provisioner "remote-exec" {
+  inline = [
+   "sudo yum install httpd php git -y",
+   "sudo service httpd restart",
+   "sudo chkconfig  httpd  on",
+   
+    ]
+  }
+}
 
 
 
