@@ -301,7 +301,7 @@ resource "aws_cloudfront_distribution" "ros_cloudfront" {
  }
 
  tags = {
-    Environment = "production_withroshanon2023"
+    Environment = "production_withroshanon2023headsup"
   }
 
  viewer_certificate {
