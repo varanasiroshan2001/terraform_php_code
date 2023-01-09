@@ -6,7 +6,7 @@ provider "aws" {
 //FOR CREATION OF SECURITY GROUP WITH OUR OWN INBOUND RULES SUPPORTING SSH,HTTP SERVER
 resource "aws_security_group" "roshan_grp_r" {
   name         = "roshan_grp_r"
-  description  = "allow ssh and httpd"
+  description  = "allow ssh and httpd service"
  
   ingress {
     description = "SSH Port"
