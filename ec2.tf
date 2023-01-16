@@ -75,7 +75,6 @@ resource "aws_instance" "myosweb" {
   
   tags = {
     Name = "Hello-web-env"
-    env = "website"
   }
 }
 
